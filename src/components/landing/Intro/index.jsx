@@ -6,14 +6,14 @@ import dev from 'assets/illustrations/dev.svg'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Intro = () => (
-	<Wrapper>
-		<Header />
+    <Wrapper>
+		<Header page="home" />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Hi There!</h1>
-				<h4>I’m John and I’m a Backend & Devops engineer!</h4>
+				<h1>Hi There!, I'm Ariel.</h1>
+				<h4>Full-stack Developer, and a Mountaineer.</h4>
 				<Button as={AnchorLink} href="#contact">
-					Hire me
+					Contact Me
 				</Button>
 			</Details>
 			<Thumbnail>

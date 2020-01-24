@@ -4,9 +4,9 @@ import { Container } from 'components/common'
 import NavbarLinks from '../NavbarLinks'
 import { Wrapper } from './styles'
 
-const Navbar = () => (
-	<Wrapper as={Container}>
-		<Link to="/">John Doe</Link>
+const Navbar = (props) => (
+    <Wrapper as={Container} page={props.page}>
+		<Link to="/">Ariel Pasilang</Link>
 		<NavbarLinks desktop />
 	</Wrapper>
 )

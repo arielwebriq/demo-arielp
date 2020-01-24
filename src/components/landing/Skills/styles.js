@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import detailsIllustration from 'assets/illustrations/details.svg';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div `
   background-image: url(${detailsIllustration});
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
 `;
 
-export const SkillsWrapper = styled.div`
+export const SkillsWrapper = styled.div `
   padding: 4rem 0;
   display: flex;
   align-items: center;
@@ -19,7 +19,7 @@ export const SkillsWrapper = styled.div`
   }
 `;
 
-export const Details = styled.div`
+export const Details = styled.div `
   flex: 1;
   padding-left: 2rem;
 
@@ -36,14 +36,14 @@ export const Details = styled.div`
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 14pt;
     font-weight: normal;
     line-height: 1.3;
     color: #707070;
   }
 `;
 
-export const Thumbnail = styled.div`
+export const Thumbnail = styled.div `
   flex: 1;
 
   @media (max-width: 960px) {
